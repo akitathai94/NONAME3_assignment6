@@ -1,0 +1,22 @@
+PROGRAM test;
+VAR
+	i, j, k : integer;
+	x, y, z : real;
+	n,h : char;
+	w : boolean;
+BEGIN
+	n = '1';
+	h = n; {This is assign char to char}
+	w = true;
+    i = -1;
+    j = i + 3;
+    k = 2*j;
+    if (j <= i) i=3; else j= 5;
+    do (
+    	j =3;
+    	h =4;
+    	)while(x ==y);
+    x = i + j;
+    y = 3.1415926 + i - j + k;
+    z = x + i*j/k - x/y 
+END.
